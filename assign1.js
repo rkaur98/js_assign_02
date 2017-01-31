@@ -1,14 +1,6 @@
-var myArr=['5','9']
-console.log("array")
-console.log(myArr)
-
-var v=myArr.splice(2,1,4)
-function arrPush(arr,value)
+let myArr= function(arr,item)
 {
-    console.log("array after insertion of values:"+arr)
+    arr.push(item)
     console.log(arr)
-    
 }
-
-arrPush(myArr,v)
-
+myArr([3,4],5)
